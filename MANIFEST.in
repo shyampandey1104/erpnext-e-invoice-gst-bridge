@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gst_bridge *.css
+recursive-include gst_bridge *.csv
+recursive-include gst_bridge *.html
+recursive-include gst_bridge *.ico
+recursive-include gst_bridge *.js
+recursive-include gst_bridge *.json
+recursive-include gst_bridge *.md
+recursive-include gst_bridge *.png
+recursive-include gst_bridge *.py
+recursive-include gst_bridge *.svg
+recursive-include gst_bridge *.txt
+recursive-exclude gst_bridge *.pyc
