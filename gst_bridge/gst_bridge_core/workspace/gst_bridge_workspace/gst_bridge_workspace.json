@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Erpnext E Invoice Gst Bridge Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Erpnext E Invoice Gst Bridge Volume Trend",
+   "label": "Erpnext E Invoice Gst Bridge Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Erpnext E Invoice Gst Bridge Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Erpnext E Invoice Gst Bridge Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Erpnext E Invoice Gst Bridge",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext E Invoice Gst Bridge Entry",
+   "label": "Erpnext E Invoice Gst Bridge Entry",
+   "link_to": "Erpnext E Invoice Gst Bridge Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext E Invoice Gst Bridge Audit Log",
+   "label": "Erpnext E Invoice Gst Bridge Audit Log",
+   "link_to": "Erpnext E Invoice Gst Bridge Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Erpnext E Invoice Gst Bridge Summary",
+   "link_to": "Erpnext E Invoice Gst Bridge Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext E Invoice Gst Bridge Settings",
+   "label": "Erpnext E Invoice Gst Bridge Settings",
+   "link_to": "Erpnext E Invoice Gst Bridge Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Gst_Bridge_Core",
  "name": "Erpnext E Invoice Gst Bridge",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Erpnext E Invoice Gst Bridge Entry",
+   "label": "Recent Erpnext E Invoice Gst Bridge Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Erpnext E Invoice Gst Bridge Entrys",
+   "link_to": "Erpnext E Invoice Gst Bridge Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Erpnext E Invoice Gst Bridge Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Erpnext E Invoice Gst Bridge Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Erpnext E Invoice Gst Bridge"
 }
